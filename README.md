@@ -1,13 +1,10 @@
 🤖 Introduction
-Built with React.js for the user interface, Appwrite for the Trending Movies Algorithm, and styled with TailwindCSS, Moodflix is a website project designed to help beginners get started with learning React.js. The platform offers a sleek and modern experience for browsing and discovering movies.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 50k+ members. It's a place where people help each other out.
+Built with React.js for the user interface, Appwrite for the Trending Movies Algorithm, and styled with TailwindCSS. The platform offers a sleek and modern experience for browsing and discovering movies.
 
 ⚙️ Tech Stack
 React.js
 Appwrite
 Tailwind CSS
-
 🔋 Features
 👉 Browse All Movies: Explore a wide range of movies available on the platform.
 
@@ -44,12 +41,11 @@ Set Up Environment Variables
 
 Create a new file named .env.local in the root of your project and add the following content:
 
-VITE_TMDB_API_KEY=
+VITE_IMDB_API_KEY=
 
 VITE_APPWRITE_PROJECT_ID=
 VITE_APPWRITE_DATABASE_ID=
 VITE_APPWRITE_COLLECTION_ID=
-
 Replace the placeholder values with your actual TheMovieDatabase API and Appwrite credentials. You can obtain these credentials by signing up on the TheMovieDatabase and creating a new project on the Appwrite
 
 Running the Project
